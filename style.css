@@ -1,0 +1,35 @@
+.wrapper{
+  height:100px;
+  width: 100px;
+  position: relative;
+  margin: auto;
+  transform:scale(1.5);
+}
+.counter {
+  display: inline-flex;
+  cursor:pointer;
+  width:300px;
+  height:300px;
+  max-width:100%;
+  position:relative;
+  justify-content:center;
+  align-items:center;
+}
+
+.percentage {
+  position:absolute;
+  text-align:center;
+  font-weight: bold;
+  top:50%;
+  left:0;
+  right:0;
+  vertical-align:middle;
+  transform:translate3d(0,-50%,0);
+	font-family: "Montserrat", Sans-serif;
+font-size: 22px;
+}
+canvas {
+  position:absolute;
+  top:0;
+  left:0;
+}
